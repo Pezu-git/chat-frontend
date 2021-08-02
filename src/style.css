@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #edefec;
+}
+
+#root {
+  min-width: 500px;
+  margin-top: 30px;
+  color: #1d130a;
+
+  width: 60%;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+}
+
+.container {
+  display: flex;
+
+  width: 60%;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid slategrey;
+ 
+  box-sizing: border-box;
+  text-align: center;
+  
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.ticket {
+  display: flex;
+  justify-content: center;
+  
+  height: 50px;
+  margin-left: auto;
+  /* margin-bottom: 40px; */
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+
+  box-sizing: border-box;
+  text-align: center;
+  
+  background-color: #dee2e1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  
+  /* cursor: pointer; */
+}
+
+.response {
+  width: 60%;
+
+  display: flex;
+  justify-content: left;
+
+}
+
+.createdTime {
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.ticketRadio {
+  cursor: pointer;
+}
+
+.addTicket {
+   display: flex;
+  /* box-sizing: border-box; */
+  /* text-align: center;  */
+  /* width: 300px; */
+   padding: 10px 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid slategrey;
+  /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+}
+
+.addContainer {
+  justify-content: end;
+  background-color: #edefec;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+}
+
+.addButton {
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor:pointer;
+  background-color: #dee2e1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  /* border-style: dotted; */
+}
+
+.modalAdd {
+  min-width: 300px;
+  border-radius: 5px;
+  background-color: white;
+  justify-self: center;
+  align-self: center;
+  min-height: 100px;
+  padding:30px 0;
+  position: fixed;
+  border: 1px solid slategrey;
+
+  position: absolute;
+
+  z-index: 99;
+
+  text-align: center;
+}
+
+.inputBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.inputLabel {
+  text-align: start;
+  padding-top: 10px;
+}
+
+.discription {
+  resize: none;
+  height: 30px;
+}
+.fullDiscription {
+  min-height: 50px;
+  
+}
+
+
+
