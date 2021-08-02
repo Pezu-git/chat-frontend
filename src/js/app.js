@@ -1,8 +1,8 @@
 /* eslint-disable linebreak-style */
-import HelpDesk from './HelpDesk.js';
+import Chat from './Chat.js';
 
 const root = document.getElementById('root');
 
-const app = new HelpDesk(root);
+const app = new Chat(root);
 
 app.init();
