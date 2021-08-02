@@ -1,6 +1,7 @@
 /* eslint-disable linebreak-style */
 const createRequest = async (options) => {
   const baseURL = 'https://ahj-chat-backend.herokuapp.com';
+  console.log(baseURL);
   const requestURL = `${baseURL}${options.query}`;
   const request = await fetch(requestURL, {
     method: options.method,
